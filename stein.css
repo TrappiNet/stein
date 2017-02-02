@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: FreeSerif, Charis SIL, Cambria, Times New Roman, serif
+}
+body, html {
+    padding: 3px;
+    font-size: 12pt;
+    background-color: #c8c0ff; /* instead of a blue hell we have a pleasant lavender */
+}
+
+.post {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+    border-bottom: 1px solid black;
+    overflow: hidden; /* otherwise it will not expand to cover the floated links */
+}
+
+.tags {
+    color: #555;
+    font-size: 11pt;
+}
+
+.post_content {
+    margin: 5px;
+}
+
+.avatar {
+    width: 64px;
+    height: 64px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+}
